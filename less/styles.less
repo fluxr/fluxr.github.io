@@ -1,0 +1,84 @@
+/*
+Site URL: http://fluxr.github.io/
+Description: Custom CSS styles
+Version: 0.1 040816
+Author: Emily Liu
+*/
+
+
+/*------Bootstrap Core Styles-------*/
+
+@import "bootstrap.less";
+
+/*------Custom Styles-------*/
+
+
+/*----Variables------*/
+
+@brand-primary: #0D83DD; //FreshBooks blue
+@btn-default-bg: #fff;
+@btn-default-color: @brand-primary;
+//@panel-bg: #fff;
+@panel-border-radius: 0;
+
+/*----Global Styles------*/
+
+body {
+  background: @brand-primary;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+
+/*----Homepage Styles------*/
+
+#header {
+  background: @brand-primary;
+  height: 60px;
+  padding: 15px;
+}
+
+#home {
+  .jumbotron {
+    background: none;
+    border-radius: 0;
+    h1 {
+      color: #fff;
+    }
+    p {
+      color: lighten(@brand-primary, 40%);
+    }
+    .btn-lg {
+      border-radius: 0;
+      margin-right: 2em;
+    }
+  }
+
+  .panel{
+  	background: darken(@brand-primary, 10%);
+  	.box-shadow(0 0 0 rgba(0,0,0,0)); 
+  	height: 300px;
+  }
+}
+
+.logo {
+  background: url(https://www.dropbox.com/s/vv2uol48bfvx6hq/FLUXR-logo-white.png?dl=1) no-repeat;
+  //margin: 3em 0;
+  width: 265px;
+  height: 88px;
+  //.center-block();
+}
+
+
+/*----Button Styles------*/
+
+.btn-default {
+  border: none;
+}
+
+a {
+  display: inline-block;
+  padding-right: 2em;
+}
