@@ -18,8 +18,9 @@ Author: Emily Liu
 @brand-primary: #0D83DD; //FreshBooks blue
 @btn-default-bg: #fff;
 @btn-default-color: @brand-primary;
-//@panel-bg: #fff;
+@panel-bg: darken(@brand-primary, 10%);
 @panel-border-radius: 0;
+@panel-default-border: none;
 
 /*----Global Styles------*/
 
@@ -27,23 +28,40 @@ body {
   background: @brand-primary;
 }
 
-.container-fluid {
-  padding: 0;
+// .container-fluid {
+//   padding: 0;
+// }
+
+
+/*----Button Styles------*/
+
+.btn-default {
+  border: none;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.panel-body:hover {
+  background: darken(@panel-bg, 10%)
 }
 
 
 /*----Homepage Styles------*/
 
-#header {
-  background: @brand-primary;
-  height: 60px;
-  padding: 15px;
-}
-
+// #header {
+//   background: @brand-primary;
+//   height: 60px;
+//   padding: 15px;
+// }
 #home {
   .jumbotron {
     background: none;
     border-radius: 0;
+    padding-bottom:1em;
     h1 {
       color: #fff;
     }
@@ -55,11 +73,21 @@ body {
       margin-right: 2em;
     }
   }
+  // div.panel{display:table;}
+  .panel {
+    background: darken(@brand-primary, 10%);
+    .box-shadow(0 0 0 rgba(0, 0, 0, 0));
+    //display: ​table;
+    height: 300px;
+    .panel-body {
+      color: #fff;
+      display: table-cell;
+      vertical-align: bottom;
+    }
+      &:hover {
+    background: darken(@panel-bg, 10%)
+  }
 
-  .panel{
-  	background: darken(@brand-primary, 10%);
-  	.box-shadow(0 0 0 rgba(0,0,0,0)); 
-  	height: 300px;
   }
 }
 
@@ -72,13 +100,8 @@ body {
 }
 
 
-/*----Button Styles------*/
+/*----Generative Research Page Styles------*/
 
-.btn-default {
-  border: none;
-}
-
-a {
-  display: inline-block;
-  padding-right: 2em;
+#generative {
+  padding-top: 3em;
 }
