@@ -4,14 +4,19 @@ body {
 .cards-container {
   padding-top: 3em;
 }
+.card-padding {
+  padding: 0.5em !important;
+}
 .card-style {
   position: relative;
   height: 100%;
   background: #fff;
   border: 1px solid #cdd4d9;
   box-shadow: 0 0 0 3px rgba(6,41,66,.05);
-  padding: 15px 20px;
+  padding: 1.5em;
   border-radius: 5px;
+  margin-bottom: 0; 
+  transition: all .2s ease-in-out;
 }
 .card-active{
   transition: all .2s ease-in-out;
