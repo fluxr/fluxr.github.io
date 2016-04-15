@@ -1,0 +1,28 @@
+
+
+body {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+
+/* //type  */
+
+.content p, .summary p, h3, h2, h1 {
+	color:#ffffff;
+	font-weight:300;
+}
+
+.sidebar {
+	font-size:14px;
+}
+
+
+/* Layout */
+
+.step {
+	padding:8px 0;
+	border-bottom:thin #cbcbcb solid; 
+	margin:8px
+}
+
