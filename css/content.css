@@ -14,15 +14,23 @@ body {
 }
 
 .sidebar {
-	font-size:14px;
+	padding:20px 0;
+
 }
 
+.sidebar h3 {
+	font-size:16px; 	
+}
+
+.sidebar p  {
+	font-size:14px;
+}
 
 /* Layout */
 
 .step {
-	padding:8px 0;
-	border-bottom:thin #cbcbcb solid; 
-	margin:8px
+	padding:16px 0;
+	border-bottom:thin #cbcbcb dotted; 
+/* 	margin:10px 0; */
 }
 
