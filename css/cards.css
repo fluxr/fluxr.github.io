@@ -1,6 +1,59 @@
+/* 
+////
+////  GLOAL CSS TO ADD - ASK EMILY 
+////
+*/
+
 body {
-  /*background-color: #FBFDFE;*/
+  background-color: #FBFDFE;
 }
+
+.panel--header {
+  background: #e7f3fc;
+  padding: 40px 0 60px 0;
+}
+.panel-contents {
+  margin: 0 auto;
+  max-width: 530px;
+  text-align: center;
+}
+
+.logo {
+  text-indent: -5000px;
+  font-size: 0;
+  display: inline-block;
+  width: 301px;
+  height: 84px;
+  background: url("../img/logo.png");
+  margin: 0 auto;
+}
+
+/* 
+////
+////  PLAN.CSS
+////
+*/
+
+.article-nav {
+  /*border: 2px solid #cdd4d9;*/
+  background: #EFF3F7;
+  /*background: red;*/
+}
+.article-nav li {
+  line-height: 2.5;
+  float: none;
+  list-style: none;
+}
+
+.detail-steps {
+}
+
+/* 
+////
+////  CARDS.CSS
+////
+*/
+
 .cards-container {
   padding-top: 3em;
 }
