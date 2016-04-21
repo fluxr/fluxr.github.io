@@ -10,7 +10,7 @@ body {
 
 .panel--header {
   background: #e7f3fc;
-  padding: 40px 0 60px 0;
+  padding: 10px 0 40px 0;
 }
 .panel-contents {
   margin: 0 auto;
@@ -27,6 +27,34 @@ body {
   background: url("../img/logo.png");
   margin: 0 auto;
 }
+.no-pad {
+  padding: 0 !important;
+}
+
+.nav-left {
+  left: 0;
+}
+
+.nav-elements {
+    position: absolute;
+    top: 0;
+    /*height: 100%;*/
+}
+
+a.back-link {
+    float: left;
+    padding: 26px 28px 21px 40px;
+    width: auto;
+    height: 100%;
+    border-right: 1px solid #e8e8e8;
+    color: #72777a;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.glyphicon {
+  font-size: 30px;
+}
 
 /* 
 ////
@@ -39,10 +67,19 @@ body {
   background: #EFF3F7;
   /*background: red;*/
 }
+.article-nav ul {
+  padding-left: 0 !important;
+}
 .article-nav li {
   line-height: 2.5;
   float: none;
+  text-align: center;
+  font-size: 15px;
   list-style: none;
+  cursor: pointer;
+}
+.active{
+    background: rgba(0,0,0,0.05);
 }
 
 .detail-steps {
