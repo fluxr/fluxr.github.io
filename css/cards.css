@@ -29,7 +29,7 @@ body {
 .detail-steps p {
   font-size: 18px;
   line-height: 160%;
-  padding-bottom: 40px;
+  /*padding-bottom: 40px;*/
   color: #586971;}
 
 h3 {
