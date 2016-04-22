@@ -223,3 +223,12 @@ a.back-link {
   border: 1px solid rgba(6,41,65,0.20);
   box-shadow: 2px 2px 0px 0px rgba(6,41,65,0.07);
 }
+.who {
+  list-style: none;
+}
+.who li {
+  margin-left: -40px;
+}
+.who i {
+  color: #0d83dd;
+}
