@@ -33,12 +33,20 @@ body {
   color: #586971;}
 
 h3 {
-    color: #0d83dd;
-    font-size: 28px;
-    font-size: 1.75rem;
-    line-height: 34px;
-    margin-top: 0;
-}
+  color: #0d83dd;
+  font-size: 28px;
+  font-size: 1.75rem;
+  line-height: 34px;
+  margin-top: 0;}
+
+a {
+    transition: all .2s ease-in-out;}
+
+a:hover{
+  transition: all .2s ease-in-out;}
+
+a:visited{
+  opacity: 0.5;}
 
 .panel--header {
   background: #e7f3fc;
@@ -86,36 +94,6 @@ a.back-link {
 
 /* 
 ////
-////  PLAN.CSS
-////
-*/
-
-.article-nav {
-  /*border: 2px solid #cdd4d9;*/
-  background: #e7f3fc;
-  border-radius: 5px;
-}
-.article-nav ul {
-  padding-left: 0 !important;
-}
-.article-nav li {
-  line-height: 2.5;
-  float: none;
-  text-align: center;
-  font-size: 15px;
-  list-style: none;
-  cursor: pointer;
-}
-.active{
-    /*background: rgba(0,0,0,0.05);*/
-    font-weight: 700;
-}
-
-.detail-steps {
-}
-
-/* 
-////
 ////  CARDS.CSS
 ////
 */
@@ -151,7 +129,7 @@ a.back-link {
 
 /* DELAYED CARD ANIMATION */
 .card-padding:nth-child(1) {
-	-webkit-animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
 }
 .card-padding:nth-child(2) {
     -webkit-animation-delay: 0.7s;
@@ -171,14 +149,14 @@ a.back-link {
 
 /* CARD ILLUSTRATION */
 .circle {
-	border-radius: 50%;
-	width: 220px;
-	height: 220px; 
-	background: #e7f3fc; 
-	margin: 0 auto;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px; 
+  background: #e7f3fc; 
+  margin: 0 auto;
 }
 .circle-1 {
-	background: url('../img/card-01.jpg') center center;
+  background: url('../img/card-01.jpg') center center;
     background-size: cover;
 }
 .circle-2{
@@ -226,6 +204,37 @@ a.back-link {
   border: 1px solid rgba(6,41,65,0.20);
   box-shadow: 2px 2px 0px 0px rgba(6,41,65,0.07);
 }
+
+/* 
+////
+////  PLAN.CSS
+////
+*/
+
+.article-nav {
+  /*border: 2px solid #cdd4d9;*/
+  background: #e7f3fc;
+  border-radius: 5px;
+}
+.article-nav ul {
+  padding-left: 0 !important;
+}
+.article-nav li {
+  line-height: 2.5;
+  float: none;
+  text-align: center;
+  font-size: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+.active{
+    /*background: rgba(0,0,0,0.05);*/
+    font-weight: 700;
+}
+
+.detail-steps {
+}
+
 .who {
   list-style: none;
 }
@@ -234,4 +243,12 @@ a.back-link {
 }
 .who i {
   color: #0d83dd;
+}
+
+.footer {
+  padding: 2em;
+  background: #f5f6f7;
+}
+.footer h4 {
+  font-weight: 700;
 }
