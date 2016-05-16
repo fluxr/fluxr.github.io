@@ -252,3 +252,77 @@
 // .footer h4 {
 //   font-weight: 700;
 // }
+
+/* 
+////
+////  NEWLY ADDED CSS
+////
+*/
+
+.sidebar a {
+	/*color: #0D83DD !important;*/
+	color: #062942 !important;
+    transition: all .2s ease-in-out;
+}
+.selected { 
+	color: red !important; 
+	background: rgba(13,131,221,0.1);
+	/*font-weight: 700;*/
+	/*border-bottom: 4px solid red;*/
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+@media (min-width: 979px) {
+  .sidebar.affix-top {
+    position: static;
+  	margin-top:30px; 
+  	width:228px;
+  }
+  
+  .sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+.sidebar li.active {
+  	border:0 #eee solid;
+  	border-right-width: 2px;
+}
+.sidebar {
+	z-index: 100;
+}
+#sidebar li.active {
+    border: 0 #AFD4F3 solid;
+    border-right-width: 5px;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.nav-elements {
+    position: absolute;
+    top: 0;
+}
+.nav-left {
+    left: 0;
+}
+.nav-stacked>li {
+    float: none;
+}
+.nav>li {
+    position: relative;
+    display: block;
+    opacity: 0.5;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+

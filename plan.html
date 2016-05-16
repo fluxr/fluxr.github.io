@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/cards.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
     <!-- ANIMATE CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet">
     <!-- TYPEKIT -->
@@ -40,25 +41,30 @@
     </div>
 </div>
 
+  <!-- Main Container -->  
   <div class="container">
     <div class="row med-margin">
+
         <!-- Sidebar -->
-        <h3> The "Plan" Stage </h3>
-        <div class="col-md-2 article-nav no-pad">
-            <ul class="nav nav-tabs nav-stacked">
-                <a href="" class="smoothScroll"><li class="active">What is it?</li></a>
-                <a href="#steps" class="smoothScroll"><li>Step-by-step</li></a>
-                <a href="" class="smoothScroll"><li>Tips</li></a>
-                <a href="" class="smoothScroll"><li>Things to Avoid</li></a>
-                <a href="#resources" class="smoothScroll"><li>Resources</li></a>
-            <ul>
-        </div>
-        <!-- SPACER -->
-        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <!-- Inner wrapper -->
+            <div class="sidebar" id="leftCol">    
+             <!-- <h3> The "Plan" Stage </h3> -->
+                <ul class="nav nav-stacked affix-top" id="sidebar">
+                    <li class="active"><a href="#top">What is it?</a></li>
+                    <li class=""><a href="#steps">Step-by-step</a></li>
+                    <li class=""><a href="#sec2">Tips</a></li>
+                    <li class=""><a href="#sec3">Things to Avoid</a></li>
+                    <li><a href="#sec4">Resources</a></li>
+                </ul>
+            </div> <!-- inner wrapper -->
+        </div>  
+
         <!-- MAIN CONTENT -->
-        <div class="col-md-7 detail-steps">
+        <!-- ANCHOR LINK FROM SUBNAV --><a name="top"></a>
+        <div class="col-md-9 detail-steps" id="mainCol">
             <h2>What is the "Plan" stage?</h2>
-            <img src="./img/card-01.jpg" class="col-md-4">
+            <img src="./img/card-01.jpg" class="col-md-4 img-step">
             <p class="col-md-8">This is the beginning of your generative research. Here, you're solving for a lack of information. Plan to define the goals and methods for your research study. Great plans will act as a reference guide and help you along with the rest of the research steps.</p>
             <div class="col-md-12 about-step med-margin">
                 <span class="who col-md-6">
@@ -72,12 +78,13 @@
                 </span>
                 <span class="who col-md-6">
                 <h4>Timeline:</h4>
-                <!-- <p>Curabitur sodales elit eu odio malesuada, ut sollicitudin sem pellentesque. Donec vitae sodales lectus. Fusce.</p> -->
                 </span>
             </div>
+            <br>
             <!-- Step 1 -->
-            <a name="steps"></a>
-            <div class="steps">
+            <div class="steps col-md-12">
+            <!-- ANCHOR LINK FROM SUBNAV --><a name="steps"></a>
+                <h1>Step-by-step</h1>
                 <h3>1) Determine why you need to research</h3>
                 <ul>
                     <li>What do you/your team want to learn from the research?</li>
@@ -153,6 +160,8 @@
     <script src="js/bootstrap.min.js "></script>
     <!-- ADD SMOOTH SCROLL -->
     <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <!--  -->
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
