@@ -39,14 +39,15 @@
 //   line-height: 34px;
 //   margin-top: 0;}
 
-// a {
-//     transition: all .2s ease-in-out;}
+ a {
+     transition: all .2s ease-in-out;
+}
 
-// a:hover{
-//   transition: all .2s ease-in-out;}
+ a:hover{
+   transition: all .2s ease-in-out;}
 
-// a:visited{
-//   opacity: 0.5;}
+ a:visited{
+   opacity: 0.5;}
 
 // .panel--header {
 //   background: #e7f3fc;
