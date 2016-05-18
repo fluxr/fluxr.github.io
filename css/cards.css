@@ -342,6 +342,9 @@ a:hover {
 	max-width: 80vw;
 }
 
+.tips:before {
+	content: ('./img/checkmark.png')
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
