@@ -15,13 +15,18 @@ Author: Emily Liu
 
 /*----Variables------*/
 
+<<<<<<< HEAD
 @brand-primary: #0D83DD: //FreshBooks blue
 @brand-secondary: #AFD4F3; //FreshBooks light blue
 @brand-background:#FBFDFE; //FreshBooks default white bg
+=======
+@brand-primary: #0D83DD; //FreshBooks blue
+@brand-secondary: #FBFDFE; //FreshBooks light blue
+>>>>>>> origin/master
 @btn-default-bg: #87C331;
 @btn-default-color: @brand-primary;
 @panel-bg: darken(@brand-primary, 10%);
-@panel-border-radius: 0;
+@panel-border-radius: 5px;
 @panel-default-border: none;
 
 
@@ -43,7 +48,7 @@ body {
 //   font-size: 36px;
 //   line-height: 36px;
 //   margin-bottom: 24px;
-//   margin-top: 48px; 
+//   margin-top: 48pÍx; 
 //   font-weight: 300;}
 
 .subheading {
@@ -55,6 +60,7 @@ body {
   line-height: 160%;
   /*padding-bottom: 40px;*/
   color: #586971;}
+
 
 h3 {
   color: #0d83dd;
@@ -144,11 +150,11 @@ a.back-link {
     border-radius: 0;
     padding-bottom:1em;
     h1 {
-      color: #fff;
+      color: @brand-primary;
     }
-    p {
-      color: lighten(@brand-primary, 40%);
-    }
+    // p {
+    //   color: lighten(@brand-primary, 40%);
+    // }
     .btn-lg {
       border-radius: 0;
       margin-right: 2em;
@@ -158,8 +164,9 @@ a.back-link {
   .panel {
     background: darken(@brand-primary, 10%);
     .box-shadow(0 0 0 rgba(0, 0, 0, 0));
+
     //display: ​table;
-    height: 300px;
+    height: 200px;
     .panel-body {
       color: #fff;
       display: table-cell;
