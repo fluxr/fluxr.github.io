@@ -397,14 +397,15 @@ a:hover {
 }
 
 .mini-nav>li {
-    float: left;
-    padding: 12px 20px;
-    padding-bottom: 20px;
-    -ms-transition: all 0.29s ease-in-out 0s;
-    transition: all 0.29s ease-in-out 0s; 
+  float: left;
+  padding: 12px 20px;
+  padding-bottom: 20px;
+  -ms-transition: all 0.29s ease-in-out 0s;
+  transition: all 0.29s ease-in-out 0s;
+  line-height: 32px; 
 }
 .mini-nav>li:hover {
-  /*background-color: #e5e5e5;*/
+  background-color: #e5e5e5;
   /*padding-bottom: 20px;*/
   /*border-bottom: 4px solid #0D83DD;*/
 }
