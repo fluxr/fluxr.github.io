@@ -409,6 +409,24 @@ a:hover {
   /*padding-bottom: 20px;*/
   /*border-bottom: 4px solid #0D83DD;*/
 }
+.footer .love {
+  margin-top: 30px;
+  text-align: center;
+  opacity: 0.3;
+  font-size: 14px;
+}
+.top-pad {
+  margin-top: 2em;
+}
+.summary {
+  /*font-size: 24px !important;*/
+}
+.sub-heading {
+  text-align: center;
+}
+.btn-white {
+  color: white !important;
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
