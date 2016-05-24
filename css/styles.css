@@ -4265,7 +4265,8 @@ a.back-link {
   background: #074a7d;
 }
 .intro {
-  background: url("../img/hero.jpg");
+  background: url("../img/hero.jpg") no-repeat;
+  background-size: cover;
   color: white !important;
   min-height: 50vh;
 }
