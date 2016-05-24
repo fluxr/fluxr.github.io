@@ -28,7 +28,6 @@ Author: Emily Liu
 @panel-border-radius: 5px;
 @panel-default-border: none;
 
-
 /*----Global Styles------*/
 
 body {
@@ -76,7 +75,10 @@ h3 {
   margin: 0 auto;
   max-width: 530px;
   text-align: center;}
-
+.panel {
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+}
 .sidebar a {
   color: @brand-primary !important;
 }
@@ -196,6 +198,9 @@ a.back-link {
   box-sizing: border-box;
   border-top: 4px solid #EFC100;
   transition: all .2s ease-in-out;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(6, 41, 66, 0.05);
+  border-radius: 4px;
 }
 
 .article-item:hover{
@@ -216,6 +221,9 @@ a.back-link {
 .card-padding {
   padding: 0.5em !important;
   transition: all .2s ease-in-out;
+}
+.card-padding-max {
+  padding: 1.5em !important;
 }
 .card-style {
   position: relative;
@@ -379,7 +387,6 @@ a.back-link {
     /*background: rgba(0,0,0,0.05);*/
     font-weight: 700;
 }
-
 .sidebar a {
   color: #0D83DD !important;
     transition: all .2s ease-in-out;
@@ -537,4 +544,135 @@ a.back-link {
 }
 .footer h4 {
   font-weight: 700;
+}
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {  }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {  }
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .sidebar .affix {
+    position: relative;
+    margin-left: none !important;
+  }
+  .sidebar {
+    display: none !important;
+  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
 }

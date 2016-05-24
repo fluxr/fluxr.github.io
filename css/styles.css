@@ -4174,6 +4174,10 @@ h3 {
   max-width: 530px;
   text-align: center;
 }
+.panel {
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+}
 .sidebar a {
   color: #0d83dd !important;
 }
@@ -4275,6 +4279,9 @@ a.back-link {
   box-sizing: border-box;
   border-top: 4px solid #EFC100;
   transition: all 0.2s ease-in-out;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(6, 41, 66, 0.05);
+  border-radius: 4px;
 }
 .article-item:hover {
   background: #f3f9fc;
@@ -4292,6 +4299,9 @@ a.back-link {
 .card-padding {
   padding: 0.5em !important;
   transition: all 0.2s ease-in-out;
+}
+.card-padding-max {
+  padding: 1.5em !important;
 }
 .card-style {
   position: relative;
@@ -4603,3 +4613,33 @@ a.back-link {
 .footer h4 {
   font-weight: 700;
 }
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .sidebar .affix {
+    position: relative;
+    margin-left: none !important;
+  }
+  .sidebar {
+    display: none !important;
+  }
+}
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 5 and 5S ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 6 ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 6+ ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
