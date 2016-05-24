@@ -346,29 +346,6 @@ a:hover {
 	content: ('./img/checkmark.png')
 }
 
-.circle-1 {
-  background: url('../img/card-01.png') center center;
-  background-size: cover;
-}
-.circle-2{
-  background: url('../img/card-02.png') center center;
-  background-size: cover;
-}
-.circle-3{
-  background: url('../img/card-03.png') center center;
-  background-size: cover;
-}
-.circle-4{
-/*  add img URL  */
-}
-.circle-5{
-  background: url('../img/card-05.png') center center;
-  background-size: cover;
-}
-.circle-6{
-/*  add img URL  */
-}
-
 .panel--miniheader {
 	background: #e7f3fc;
 	/*background: red;*/
@@ -390,7 +367,7 @@ a:hover {
 	background: url("../img/logo.png");
 	margin: 0 auto;}
 
-.mini-nav {
+/*.mini-nav {
 	list-style-type: none;
   margin: 0;
   padding: 0;
@@ -406,8 +383,8 @@ a:hover {
 }
 .mini-nav>li:hover {
   background-color: #e5e5e5;
-  /*padding-bottom: 20px;*/
-  /*border-bottom: 4px solid #0D83DD;*/
+  padding-bottom: 20px;
+  /*border-bottom: 4px solid #0D83DD;
 }
 .footer .love {
   margin-top: 30px;
@@ -421,12 +398,9 @@ a:hover {
 .summary {
   /*font-size: 24px !important;*/
 }
-.sub-heading {
-  text-align: center;
-}
 .btn-white {
   color: white !important;
-}
+}*/*/
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
