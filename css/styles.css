@@ -4260,6 +4260,31 @@ a.back-link {
 #home .panel:hover {
   background: #074a7d;
 }
+.intro {
+  background: url("../img/hero.jpg");
+  color: white !important;
+  min-height: 50vh;
+}
+.article-item {
+  overflow: hidden;
+  padding-top: 0.5em;
+  margin-bottom: 30px;
+  margin-left: 2%;
+  margin-right: 2%;
+  float: left;
+  box-sizing: border-box;
+  border-top: 4px solid #EFC100;
+  transition: all 0.2s ease-in-out;
+}
+.article-item:hover {
+  background: #f3f9fc;
+}
+.article-item p {
+  color: #062942;
+  font-size: 1.75rem;
+  font-size: 28px;
+  line-height: 1.3;
+}
 /*----Cards Styles------*/
 .cards-container {
   padding-top: 3em;
@@ -4440,12 +4465,32 @@ a.back-link {
   text-align: center;
   opacity: 0.3;
   font-size: 14px;
+  display: none;
 }
 .top-pad {
   margin-top: 2em;
 }
 .summary {
   font-size: 24px !important;
+}
+.tips,
+.avoid {
+  list-style: none;
+  margin-top: 1em;
+}
+.tips li span {
+  background: url('../img/fb-check.png');
+  background-repeat: no-repeat;
+  background-size: 18px 17px;
+  display: inline-block;
+  padding-left: 28px;
+}
+.avoid li span {
+  background: url('../img/fb-warning.png');
+  background-repeat: no-repeat;
+  background-size: 18px 17px;
+  display: inline-block;
+  padding-left: 28px;
 }
 /*---- Mini Header ------*/
 .panel--miniheader {
