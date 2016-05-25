@@ -4627,7 +4627,7 @@ a.back-link:hover {
     display: none !important;
   }
   .intro {
-    background-image: none;
+    /*background-image: none;*/
   }
 }
 /* Portrait */
