@@ -4220,20 +4220,15 @@ a.back-link {
   width: auto;
   height: 100%;
   /*background: rgba(255,255,255,0.5);*/
-  font-size: 13px;
-  font-weight: 600;
+  color: #0d83dd;
+  font-size: 18px;
+  /*font-weight: 600;*/
+}
+a.back-link:hover {
+  color: #8bc9f8 !important;
 }
 .glyphicon {
   font-size: 30px;
-}
-.logo {
-  text-indent: -5000px;
-  font-size: 0;
-  display: inline-block;
-  width: 301px;
-  height: 84px;
-  background: url("../img/logo.png");
-  margin: 0 auto;
 }
 /*----Homepage Styles------*/
 #home .jumbotron {
@@ -4265,6 +4260,9 @@ a.back-link {
 .intro {
   background: url("../img/hero.jpg") no-repeat;
   background-size: cover;
+  /*  background: url("../img/clipboard.png") bottom right no-repeat;
+  background-size: 250px;  
+  background-color: @brand-primary;*/
   color: white !important;
   min-height: 50vh;
 }
@@ -4520,7 +4518,8 @@ a.back-link {
   display: inline-block;
   width: 301px;
   height: 84px;
-  background: url("../img/logo.png");
+  /*background: url("../img/logo.png");*/
+  background: url("../img/logo-white.png") center no-repeat;
   margin: 0 auto;
 }
 .mini-nav {
@@ -4570,13 +4569,6 @@ a.back-link {
   border-right-width: 5px;
   font-weight: 700;
   opacity: 1;
-}
-.nav-elements {
-  position: absolute;
-  top: 0;
-}
-.nav-left {
-  left: 0;
 }
 .nav-stacked > li {
   float: none;
