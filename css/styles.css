@@ -4166,7 +4166,8 @@ h3 {
   margin-top: 0;
 }
 .panel--header {
-  background: #e7f3fc;
+  /*background: #e7f3fc;*/
+  background: #0d83dd;
   padding: 10px 0 40px 0;
 }
 .panel-contents {
@@ -4212,16 +4213,13 @@ a:visited {
   left: 0;
 }
 .nav-elements {
-  position: absolute;
-  top: 0;
+  /*position: absolute;*/
+  /*top: 0;*/
 }
 a.back-link {
-  float: left;
-  padding: 26px 28px 21px 40px;
   width: auto;
   height: 100%;
   /*background: rgba(255,255,255,0.5);*/
-  color: #72777a;
   font-size: 13px;
   font-weight: 600;
 }
@@ -4628,6 +4626,9 @@ a.back-link {
   }
   .sidebar {
     display: none !important;
+  }
+  .intro {
+    background-image: none;
   }
 }
 /* Portrait */

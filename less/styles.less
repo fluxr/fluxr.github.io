@@ -41,25 +41,16 @@ body {
   color: #062942;
   list-style-type: none;
 }
-
-// .heading--1 {
-//   font-size: 36px;
-//   line-height: 36px;
-//   margin-bottom: 24px;
-//   margin-top: 48px; 
-//   font-weight: 300;}
-
 .subheading {
   opacity: 0.5;
-  margin-bottom: 24px; }
-
+  margin-bottom: 24px; 
+}
 .detail-steps p {
   font-size: 18px;
   line-height: 160%;
   /*padding-bottom: 40px;*/
-  color: #586971;}
-
-
+  color: #586971;
+}
 h3 {
   color: #0d83dd;
   font-size: 28px;
@@ -68,7 +59,8 @@ h3 {
   margin-top: 0;}
 
 .panel--header {
-  background: #e7f3fc;
+  /*background: #e7f3fc;*/
+  background: #0d83dd;
   padding: 10px 0 40px 0;}
 
 .panel-contents {
@@ -88,7 +80,6 @@ h3 {
 .btn-default {
   border: none;
 }
-
 a {
   transition: all .2s ease-in-out;
   color: #0D83DD !important;
@@ -116,39 +107,27 @@ a {
   left: 0;
 }
 .nav-elements {
-  position: absolute;
-  top: 0;
+  /*position: absolute;*/
+  /*top: 0;*/
 }
 a.back-link {
-  float: left;
-  padding: 26px 28px 21px 40px;
   width: auto;
   height: 100%;
   /*background: rgba(255,255,255,0.5);*/
-  color: #72777a;
-  font-size: 13px;
-  font-weight: 600;
+  color: @brand-primary;
+  font-size: 18px;
+  /*font-weight: 600;*/
 }
+a.back-link:hover{
+  color: lighten(@brand-primary, 30%) !important;
+}
+
 .glyphicon {
   font-size: 30px;
-}
-.logo {
-  text-indent: -5000px;
-  font-size: 0;
-  display: inline-block;
-  width: 301px;
-  height: 84px;
-  background: url("../img/logo.png");
-  margin: 0 auto;
 }
 
 /*----Homepage Styles------*/
 
-// #header {
-//   background: @brand-primary;
-//   height: 60px;
-//   padding: 15px;
-// }
 #home {
   .jumbotron {
     background: none;
@@ -157,20 +136,15 @@ a.back-link {
     h1 {
       color: @brand-primary;
     }
-    // p {
-    //   color: lighten(@brand-primary, 40%);
-    // }
     .btn-lg {
       border-radius: 0;
       margin-right: 2em;
     }
   }
-  // div.panel{display:table;}
   .panel {
     background: darken(@brand-primary, 10%);
     .box-shadow(0 0 0 rgba(0, 0, 0, 0));
 
-    //display: ​table;
     height: 200px;
     .panel-body {
       color: #fff;
@@ -186,6 +160,9 @@ a.back-link {
 .intro {
   background: url("../img/hero.jpg") no-repeat;
   background-size: cover; 
+/*  background: url("../img/clipboard.png") bottom right no-repeat;
+  background-size: 250px;  
+  background-color: @brand-primary;*/
   color: white !important;
   min-height: 50vh;
 
@@ -450,7 +427,8 @@ a.back-link {
   display: inline-block;
   width: 301px;
   height: 84px;
-  background: url("../img/logo.png");
+  /*background: url("../img/logo.png");*/
+  background: url("../img/logo-white.png") center no-repeat;
   margin: 0 auto;}
 
 .mini-nav {
@@ -504,14 +482,6 @@ a.back-link {
     border-right-width: 5px;
     font-weight: 700;
     opacity: 1;
-}
-
-.nav-elements {
-    position: absolute;
-    top: 0;
-}
-.nav-left {
-    left: 0;
 }
 .nav-stacked>li {
     float: none;
@@ -576,6 +546,9 @@ a.back-link {
   }
   .sidebar {
     display: none !important;
+  }
+  .intro {
+    background-image: none;
   }
 }
 
