@@ -74,7 +74,9 @@ h3 {
 .sidebar a {
   color: @brand-primary !important;
 }
-
+.top-pad {
+  margin-top: 2em;
+}
 /*----Button Styles------*/
 
 .btn-default {
@@ -269,18 +271,6 @@ a.back-link:hover{
   /*padding-bottom: 20px;*/
   /*border-bottom: 4px solid #0D83DD;*/
 }
-.footer .love {
-  margin-top: 30px;
-  text-align: center;
-  opacity: 0.3;
-  font-size: 14px;
-}
-.top-pad {
-  margin-top: 2em;
-}
-.summary {
-  /*font-size: 24px !important;*/
-}
 
 /*----Illustration Styles------*/
 .circle {
@@ -388,9 +378,7 @@ a.back-link:hover{
   opacity: 0.3;
   font-size: 14px;
   display: none;
-}
-.top-pad {
-  margin-top: 2em;
+  z-index: -5000;
 }
 .summary {
   font-size: 24px !important;
@@ -514,7 +502,9 @@ a.back-link:hover{
 .who i {
   color: #0d83dd;
 }
-
+.back-step, .next-step {
+  z-index: 10000
+}
 .footer {
   padding: 2em;
   background: #f5f6f7;
