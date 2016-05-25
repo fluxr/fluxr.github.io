@@ -4470,8 +4470,8 @@ a.back-link:hover {
   text-align: center;
   opacity: 0.3;
   font-size: 14px;
-  display: none;
-  z-index: -5000;
+  /*display: none;*/
+  z-index: 0;
 }
 .summary {
   font-size: 24px !important;
@@ -4593,12 +4593,12 @@ a.back-link:hover {
 .who i {
   color: #0d83dd;
 }
-.back-step,
-.next-step {
-  z-index: 10000;
+.backStep,
+.nextStep {
+  z-index: 100;
 }
 .footer {
-  padding: 2em;
+  padding: 1.2em;
   background: #f5f6f7;
 }
 .footer h4 {
@@ -4625,15 +4625,30 @@ a.back-link:hover {
 }
 /* Portrait */
 /* Landscape */
-/* ----------- iPhone 5 and 5S ----------- */
-/* Portrait and Landscape */
-/* Portrait */
-/* Landscape */
-/* ----------- iPhone 6 ----------- */
-/* Portrait and Landscape */
-/* Portrait */
-/* Landscape */
-/* ----------- iPhone 6+ ----------- */
-/* Portrait and Landscape */
-/* Portrait */
-/* Landscape */
+/* -------------------------------------- */
+/* ----------- Media Queries  ----------- */
+/* -------------------------------------- */
+@media screen and (max-width: 480px) {
+  .sidebar .affix {
+    position: relative;
+    margin-left: none !important;
+  }
+  .sidebar {
+    display: none !important;
+  }
+  .intro {
+    /*background-image: none;*/
+  }
+}
+@media (max-width: 860px) {
+  .sidebar .affix {
+    position: relative;
+    margin-left: none !important;
+  }
+  .sidebar {
+    display: none !important;
+  }
+  .intro {
+    /*background-image: none;*/
+  }
+}
