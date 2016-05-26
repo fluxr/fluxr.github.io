@@ -4186,6 +4186,9 @@ h3 {
 .top-pad {
   margin-top: 2em;
 }
+.bottom-pad {
+  margin-bottom: 2em;
+}
 /*----Button Styles------*/
 .btn-default {
   border: none;
@@ -4324,9 +4327,9 @@ a.back-link:hover {
 .card-style:hover {
   border-color: #9ba9b3;
   cursor: pointer;
-  -webkit-transform: translateY(-10px);
-  -ms-transform: translateY(-10px);
-  transform: translateY(-10px);
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 /* DELAYED CARD ANIMATION */
 .card-padding:nth-child(1) {
@@ -4465,9 +4468,9 @@ a.back-link:hover {
 .footer .love {
   margin-top: 30px;
   text-align: center;
-  opacity: 0.3;
+  /*opacity: 0.3;*/
+  color: #8394a1;
   font-size: 14px;
-  /*display: none;*/
   z-index: 0;
 }
 .summary {

@@ -21,6 +21,7 @@ Author: Emily Liu
 @brand-primary: #0D83DD; //FreshBooks blue
 @brand-secondary: #FBFDFE; //FreshBooks light blue
 @brand-black: #062942; //FreshBooks standard black
+@brand-black-fade: #8394A1; //FreshBooks ligher black
 @btn-default-bg: #87C331;
 @btn-default-color: @brand-primary;
 @panel-bg: darken(@brand-primary, 10%);
@@ -76,6 +77,9 @@ h3 {
 }
 .top-pad {
   margin-top: 2em;
+}
+.bottom-pad {
+  margin-bottom: 2em;
 }
 /*----Button Styles------*/
 
@@ -226,9 +230,9 @@ a.back-link:hover{
 .card-style:hover{
   border-color: #9ba9b3;
   cursor: pointer;
-  -webkit-transform: translateY(-10px);
-  -ms-transform: translateY(-10px);
-  transform: translateY(-10px);
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 /* DELAYED CARD ANIMATION */
@@ -372,9 +376,9 @@ a.back-link:hover{
 .footer .love {
   margin-top: 30px;
   text-align: center;
-  opacity: 0.3;
+  /*opacity: 0.3;*/
+  color: @brand-black-fade;
   font-size: 14px;
-  /*display: none;*/
   z-index: 0;
 }
 .summary {
