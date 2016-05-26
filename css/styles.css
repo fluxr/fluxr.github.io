@@ -4417,9 +4417,6 @@ a.back-link:hover {
   margin-bottom: 1em;
   z-index: 50;
 }
-.img-step {
-  max-width: 600px;
-}
 .sub-heading {
   font-size: 16px;
   color: rgba(6, 41, 66, 0.5);
@@ -4514,7 +4511,7 @@ a.back-link:hover {
   display: inline-block;
   width: 301px;
   height: 84px;
-  /*background: url("../img/logo.png");*/
+  /*background: url("../img/logo.png") center no-repeat;*/
   background: url("../img/logo-white.png") center no-repeat;
   margin: 0 auto;
 }
@@ -4604,27 +4601,6 @@ a.back-link:hover {
 .footer h4 {
   font-weight: 700;
 }
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-/* Small devices (tablets, 768px and up) */
-/* Medium devices (desktops, 992px and up) */
-/* Large devices (large desktops, 1200px and up) */
-/* ----------- iPhone 4 and 4S ----------- */
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  .sidebar .affix {
-    position: relative;
-    margin-left: none !important;
-  }
-  .sidebar {
-    display: none !important;
-  }
-  .intro {
-    /*background-image: none;*/
-  }
-}
-/* Portrait */
-/* Landscape */
 /* -------------------------------------- */
 /* ----------- Media Queries  ----------- */
 /* -------------------------------------- */
@@ -4637,7 +4613,14 @@ a.back-link:hover {
     display: none !important;
   }
   .intro {
-    /*background-image: none;*/
+    background-image: none !important;
+    background-color: #0d83dd;
+  }
+  .img-step {
+    max-width: 80vw;
+  }
+  .logo {
+    background-size: 60vw;
   }
 }
 @media (max-width: 860px) {
@@ -4647,8 +4630,5 @@ a.back-link:hover {
   }
   .sidebar {
     display: none !important;
-  }
-  .intro {
-    /*background-image: none;*/
   }
 }
