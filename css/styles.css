@@ -4273,6 +4273,10 @@ a.back-link:hover {
   color: white !important;
   min-height: 50vh;
 }
+.coming-soon {
+  opacity: 0.3;
+  font-size: 18px;
+}
 .center-block {
   display: block;
   margin-left: auto;
