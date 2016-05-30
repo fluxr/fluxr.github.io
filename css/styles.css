@@ -4138,6 +4138,11 @@ input[type="button"].btn-block {
 /*------Custom Styles-------*/
 /*----Variables------*/
 /*----Global Styles------*/
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
   background: #fbfdfe;
   margin: 0;
@@ -4274,8 +4279,7 @@ a.back-link:hover {
   min-height: 50vh;
 }
 .coming-soon {
-  opacity: 0.3;
-  font-size: 18px;
+  opacity: 0.5;
 }
 .center-block {
   display: block;
@@ -4629,6 +4633,12 @@ a.back-link:hover {
   .logo {
     background-size: 60vw;
   }
+  .img-step {
+    max-width: 75% !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media (max-width: 860px) {
   .sidebar .affix {
@@ -4637,5 +4647,8 @@ a.back-link:hover {
   }
   .sidebar {
     display: none !important;
+  }
+  .img-step {
+    max-width: 50%;
   }
 }
