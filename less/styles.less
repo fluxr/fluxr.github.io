@@ -366,6 +366,9 @@ a.back-link:hover{
   list-style: none;
   cursor: pointer;
 }
+.steps li {
+  color: #062942;
+}
 .active{
   /*background: rgba(0,0,0,0.05);*/
   font-weight: 700;
@@ -390,6 +393,9 @@ a.back-link:hover{
 }
 .summary {
   font-size: 24px !important;
+}
+.note {
+  background-color: rgba(175,212,243,0.30) !important;
 }
 .tips, .avoid {
   list-style: none;
@@ -521,6 +527,15 @@ a.back-link:hover{
   font-weight: 700;
 }
 
+
+#plan .step-title {
+    font-weight: 700;
+    /*font-size: 14px;*/
+    /*margin-left: 40px;*/
+    text-align: left;
+    color: #36354E;
+}
+
 /* -------------------------------------- */
 /* ----------- Media Queries  ----------- */
 /* -------------------------------------- */
@@ -560,7 +575,10 @@ a.back-link:hover{
     display: none !important;
   }
   .img-step {
-    max-width: 50%; 
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
   }    
 }
 
