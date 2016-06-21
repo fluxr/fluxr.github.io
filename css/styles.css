@@ -4286,7 +4286,7 @@ a.back-link:hover {
   /*opacity: 0.5;*/
   background-color: rgba(237, 192, 43, 0.2);
   color: #EDC02B;
-  padding: 6px 10px;
+  padding: 0 10px;
   float: right;
 }
 .center-block {
