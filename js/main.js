@@ -16,3 +16,10 @@ $('#mainCol').removeClass('selected');
     $(this).addClass('selected')
 ;
 
+// :active Sidebar Nav
+$('li a').click(function(e) {
+    e.preventDefault();
+    $('a').removeClass('active');
+    $(this).addClass('active');
+});
+
