@@ -4163,6 +4163,10 @@ body {
   /*padding-bottom: 40px;*/
   color: #586971;
 }
+h1 {
+  font-size: 40px;
+  /*font-size: 2.5rem;*/
+}
 h3 {
   color: #0d83dd;
   /*font-size: 18px;*/
@@ -4182,10 +4186,11 @@ blockquote {
   /*background: #e7f3fc;*/
   background: #0d83dd;
   padding: 10px 0 40px 0;
+  color: #fff;
 }
 .panel-contents {
   margin: 0 auto;
-  max-width: 530px;
+  max-width: 768px;
   text-align: center;
 }
 .panel {
@@ -4247,40 +4252,14 @@ a.back-link:hover {
   font-size: 30px;
 }
 /*----Homepage Styles------*/
-#home .jumbotron {
-  background: none;
-  border-radius: 0;
-  padding-bottom: 1em;
-}
-#home .jumbotron h1 {
-  color: #0d83dd;
-}
-#home .jumbotron .btn-lg {
-  border-radius: 0;
-  margin-right: 2em;
-}
-#home .panel {
-  background: #0a66ad;
-  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  height: 200px;
-}
-#home .panel .panel-body {
-  color: #fff;
-  display: table-cell;
-  vertical-align: bottom;
-}
-#home .panel:hover {
-  background: #074a7d;
-}
 .intro {
   background: url("../img/hero.jpg") no-repeat;
   background-size: cover;
-  /*  background: url("../img/clipboard.png") bottom right no-repeat;
-  background-size: 250px;  
-  background-color: @brand-primary;*/
   color: white !important;
   min-height: 50vh;
+}
+.intro-pad {
+  padding: 40px 0;
 }
 .coming-soon {
   /*opacity: 0.5;*/
@@ -4384,7 +4363,7 @@ a.back-link:hover {
   line-height: 32px;
 }
 .mini-nav > li:hover {
-  background-color: #e5e5e5;
+  /*background-color: #e5e5e5;*/
   /*padding-bottom: 20px;*/
   /*border-bottom: 4px solid #0D83DD;*/
 }
@@ -4541,15 +4520,10 @@ a.back-link:hover {
 }
 /*---- Mini Header ------*/
 .panel--miniheader {
-  background: #e7f3fc;
-  /*background: red;*/
-  /*padding: 10px 0 10px 20px;*/
-  border-radius: none !important;
-  height: 60px;
+  background: #0d83dd;
 }
 .panel-minicontents {
   margin: 0 auto;
-  /*max-width: 530px;*/
   text-align: left;
 }
 .logo {
@@ -4561,6 +4535,28 @@ a.back-link:hover {
   /*background: url("../img/logo.png") center no-repeat;*/
   background: url("../img/logo-white.png") center no-repeat;
   margin: 0 auto;
+}
+.leaf-wrapper {
+  left: 70px;
+  right: 70px;
+  top: 30px;
+  width: auto;
+  position: absolute;
+}
+.lead-pad {
+  overflow: hidden;
+  padding: 120px 0 60px;
+  position: relative;
+}
+.hero-bg {
+  background-size: cover;
+  /*background: url("../img/clipboard.png") bottom right no-repeat;
+  background-size: 150px; 
+  background-position: 90% 100%;*/
+  background: url("../img/discover.png") bottom right no-repeat;
+  background-size: 300px;
+  background-position: 100% 100%;
+  background-color: #0d83dd;
 }
 .mini-nav {
   list-style-type: none;
