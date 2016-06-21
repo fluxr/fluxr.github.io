@@ -4283,7 +4283,11 @@ a.back-link:hover {
   min-height: 50vh;
 }
 .coming-soon {
-  opacity: 0.5;
+  /*opacity: 0.5;*/
+  background-color: rgba(237, 192, 43, 0.2);
+  color: #EDC02B;
+  padding: 6px 10px;
+  float: right;
 }
 .center-block {
   display: block;
@@ -4304,6 +4308,9 @@ a.back-link:hover {
   background: #fff;
   box-shadow: 0 0 0 3px rgba(6, 41, 66, 0.05);
   border-radius: 4px;
+}
+.article-item .no-hover:hover {
+  background: #fff !important;
 }
 .article-item:hover {
   background: #f3f9fc;
