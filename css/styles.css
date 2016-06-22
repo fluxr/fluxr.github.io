@@ -4654,7 +4654,7 @@ a.back-link:hover {
     display: none !important;
   }
   .intro {
-    background-image: none !important;
+    /*background-image: none !important;*/
     background-color: #0d83dd;
   }
   .img-step {
@@ -4668,6 +4668,12 @@ a.back-link:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .panel-contents {
+    max-width: 90% !important;
+  }
+  .hero-bg {
+    background-size: 180px !important;
   }
 }
 @media (max-width: 860px) {
@@ -4683,5 +4689,11 @@ a.back-link:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .panel-contents {
+    max-width: 90% !important;
+  }
+  .hero-bg {
+    background-size: 200px;
   }
 }
