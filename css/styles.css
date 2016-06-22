@@ -4178,6 +4178,10 @@ strong {
   color: #0d83dd;
   font-weight: 500;
 }
+.bolder {
+  color: #062942 !important;
+  font-weight: 600;
+}
 blockquote {
   background-color: #f5f6f7 !important;
   border-left: none !important;
