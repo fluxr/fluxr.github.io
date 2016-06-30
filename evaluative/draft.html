@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>FLUXR - Generative Research</title>
     <!-- Bootstrap -->
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
     <!-- <link href="css/cards.css" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
     <!-- ANIMATE CSS -->
@@ -54,7 +54,7 @@
             <!-- Inner wrapper -->
             <div class="sidebar" id="leftCol">    
              <!-- <h3> The "Plan" Stage </h3> -->
-                <ul class="nav nav-stacked affix-top" id="sidebar">
+                <ul class="nav nav-stacked affix-top top-pad" id="sidebar">
                     <li class=""><a href="#top" class="smoothScroll">What is it?</a></li>
                     <li class=""><a href="#steps" class="smoothScroll">Step-by-step</a></li>
                     <li class=""><a href="#tips" class="smoothScroll">Tips</a></li>
@@ -69,88 +69,78 @@
             <!-- ANCHOR LINK FROM SUBNAV --><a name="top"></a>
             <!-- Back button -->
             <div class="nav-elements nav-left top-pad">
-                <a href="./generative-research.html" class="back-link"><i class="fa fa-angle-left"></i> Back to steps </a>
+                <a href="../evaluative-research.html" class="back-link"><i class="fa fa-angle-left"></i> Back to steps </a>
             </div>
-            <h1>Plan</h1>
-            <img src="./img/card-01.png" class="col-md-4 img-step">
-            <p class="col-md-8 top-pad summary">Great research plans will act as a reference guide and help you along with the rest of the steps to help solve for a lack of infomation.</p>
-            <div class="col-md-12 about-step med-margin">
-                <span class="who col-md-6">
-                    <h3>Who's involved:</h3>
-                    <ul class="who">
-                        <li><i class="fa fa-user"></i> UX Designer, Product Manger, any other stakeholders</li>
-                    </ul>
-                </span>
-                <span class="who col-md-6">
-                <h3>Timeline:</h3>
-                <ul class="who">
-                        <li><i class="fa fa-clock-o"></i> 60 - 90 mins.</li>
-                    </ul>
-                </span>
-            </div>
-            <br>
+            <h1>Draft</h1>
+            <img src="../img/card-04.png" class="col-md-4 img-step">
+            <p class="col-md-8 top-pad summary">Draft a test script that's based on flows/scenarios and follow-up with why.</p>
+
             <!-- Step 1 -->
             <div class="steps col-md-12">
             <!-- ANCHOR LINK FROM SUBNAV --><a name="steps"></a>
                 <h2>Step-by-step</h2>
-                <h3 class="">1) First, what are you planning to research?</h3>
-                <ul>
-                    <li>What do you/your team want to learn from the research?</li>
-                    <li>What do/don't you know about your customers? </li>
-                    <li>Who the research  is going to benefit. Who are you designing for?</li>
-                    <li>Which stakeholders/team members  should be involved </li>
-                    <li>The amount of time available for research – how deep/thorough should this be? </li>
-                </ul>
+                 <p><strong>Understand your participant</strong>. The idea of this kind of testing is to see how users would instinctively complete tasks without being guided by the facilitator, we want to know if our design makes sense to the end user and how it could be improved from their perspective.</p>
+
                 <!-- Step 2 -->
-                <h3>2) Next, decide which stakeholders should be part of the process </h3>
+                <h3>Check your assumptions before beginning to draft a testing script:</h3>
                 <ul>
-                    <li>Product Managers</li>
-                    <li>Development Team Leads</li>
+                    <li>About the effect (or lack of effect) on the product</li>
+                    <li>What existing research (or related information) exists to support my assumptions?</li>
+                        <ul>
+                            <li>Including web standards, generative research, design principles, etc.</li>
+                            <li>Is there a good reason to believe this research/information applies to this situation?</li>
+                            <li>What risks are possible if you are wrong?</li>
+                        </ul>
                     <li>Designers/Researchers</li>
                     <li>Product/Business Leads</li>
                 </ul>
+
                 <!-- Step 3 -->
-                <h3>3) Align on the goals and key objectives for the research</h3>
-                <!-- Step 4 -->
-                <h3>4) Figure out your timelines for the research phase</h3>
+                <p><strong>Build a scenario to test</strong>.  It's good to start with a general workflow that you would like to take your participant through - this should be fairly vague and allow the user to make their own decisions. A general framework for this kind of testing should look like this:</p>
                 <ul>
-                    <li>When should <a href="./recruit.html">recruitment</a> start?</li>
-                    <li>When should our research begin?</li>
-                    <li>When should the team deliver the high level findings and synthesis?</li>
+                    <li>What are the users first impressions?</li>
+                    <li>Have the user give us a qualitative score in the beginning based on these first impressions.</li>
+                    <li>Ask the user scenario-based questions to have them explore the design and gain feedback on their actions.</li>
+                    <li>End of session "gut check". You can also ask for another qualitative score at this point.</li>
                 </ul>
+
                 <!-- Step 4 -->
-                <h3>5) Discuss the background story of the research and/or existing discoveries</h3>
-                <!-- Step 6 -->
-                <h3>6) Specify criteria for your target participants</h3>
-                <ul>
-                    <li>I.e. Users who are located in Canada or the U.S.</li>
-                    <li>Participants that represent your target user group</li>
-                    <li>Aim for 12-20 participants</li>
-                </ul>
-                <!-- Step 7 -->
-                <h3>7) Propose questions to ask your participants</h3>
-                <!-- Step 8 -->
-                <h3>8) Choose the <a href="">methodologies</a> that would be most compatible with the goals and questions of the research</h3>
+               <p><strong>Don't run your participant through an obstacle course</strong>, , but you do want to prepare to prompt the user in case they get stuck. Having a list of possible prompts available will help keep your participant on track, but should not be used as a way to guide the user. Make sure that you also make note of the prompts you give, where they were given and the end result. These prompts, along with an inability to complete the task at hand, will affect the severity of this aspect of the design - make sure you keep track!</p>
                     <!-- Tips -->
                     <a name="tips"></a>
                     <div class="col-md-12 about-step med-margin">
                         <h4>Tips:</h4>
                         <!-- <img src="./img/checkmark.png" class="col-md-1"> -->
                         <ul class="tips">
-                            <li><span>Bring in key stakeholders when planning research</span></li>
-                            <li><span>Your project plan will change as things evolve, and that’s perfectly OK. You can always amend things as you go but make sure that you’re really thinking through your project before you start.</span></li>
-                            <li><span>Create a schedule that provides enough time for recruiting, testing, analyzing, and integrating results.</span></li>
-                            <li><span>Meet in a room, not through email. This will allow you to come to a conclusive plan much faster, and get immediate feedback from all parties.</span></li>
+                            <li><span>Remind the user that we are testing the design, not them! Let them know there is no right or wrong answer.</span></li>
+                            <li><span>Ask the user if they have any questions before you begin!</span></li>
+                            <li><span>Maintain a balance between being specific questions that the user can understand without leading them to the answer.</span></li>
+                            <li><span>Let users know they can let you know if they feel lost or like they cannot complete the task - be supportive, but give them enough time to try and figure things out. </span></li>
                         </ul>
                     </div><!-- /end tips -->
+
+                    <!-- Avoid -->
+                    <a name="avoid"></a>
+                    <div class="col-md-12 about-step med-margin">
+                        <h4>Avoid:</h4>
+                        <!-- <img src="./img/checkmark.png" class="col-md-1"> -->
+                        <ul class="avoid">
+                            <li><span>Create a script that guides the user step-by-step!</span></li>
+                            <li><span>Ask closed-ended questions - try to dig a little deeper</span></li>
+                            <li><span>Include questions that will lead the participant in any way.</span></li>
+                            <li><span>Overwhelm the participant with long-winded questions.</span></li>
+                        </ul>
+                    </div><!-- /end avoid -->
+
                     <!-- Resources -->
                     <a name="resources"></a>
                     <div class="col-md-12 about-step med-margin">
                         <h4>Resources:</h4>
                         <ul class="">
-                            <a href="https://www.dropbox.com/s/nejiguhvtuv8xmg/HORIZON-457375760-250416-1614-4.pdf?dl=0" target="_blank"><li>Horizon Team Research Plan [Example]</li></a>
-                            <a href="https://www.dropbox.com/s/9e8eocscio9ykx4/Research-Plan.pdf?dl=0" target="_blank"><li>Research Planning Guide [Free Template]</li></a>
-                            <a href="https://www.smashingmagazine.com/2012/01/ux-research-plan-stakeholders-love/" target="_blank"><li>A Research Plan That Stakeholders Love</li></a>
+                            <a href="http://www.ueq-online.org/" target="_blank"><li>User Experience Questionnaire</li></a>
+                            <a href="http://designerfund.com/bridge/what-questions-do-airbnb-design-researchers-ask/" target="_blank"><li>Good interview questions to ask</li></a>
+                            <a href="http://adaptivepath.org/guides/design-research/" target="_blank"><li>Adaptive Path - Design Research</li></a>
+                            <a href="https://www.gov.uk/service-manual/user-centred-design/user-research/discussion-guides.html" target="_blank"><li>Gov.uk GDS</li></a>
                         </ul>
                     </div><!-- /end resources -->
             </div><!-- /end steps -->
