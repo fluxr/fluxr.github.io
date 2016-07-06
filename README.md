@@ -1,1 +1,2 @@
-# http://research.freshbooks.com/
+# FreshBooks Research Guide
+http://research.freshbooks.com/
