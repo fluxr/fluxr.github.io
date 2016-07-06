@@ -4504,6 +4504,9 @@ a.back-link:hover {
 .note {
   background-color: rgba(175, 212, 243, 0.3) !important;
 }
+.resources li {
+  color: #0d83dd !important;
+}
 .tips,
 .avoid {
   list-style: none;
